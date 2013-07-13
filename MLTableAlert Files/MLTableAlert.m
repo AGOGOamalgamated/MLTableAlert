@@ -227,6 +227,7 @@
 	self.table.dataSource = self;
 	self.table.separatorStyle = UITableViewCellSeparatorStyleNone;
 	self.table.backgroundView = [[UIView alloc] init];
+    self.table.rowHeight = 60.0;
 	[self.alertBg addSubview:self.table];
 	
 	// setting white-to-gray gradient as table view's background
